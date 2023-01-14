@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/lge/joan/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/lge/joan/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/lge/joan/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/lge/joan/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/lge/joan/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/joan/proprietary/vendor/etc/acdbdata/Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Codec_cal.acdb \
@@ -534,6 +533,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/lib/libsymphonypower-1.1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower-1.1.2.so \
     vendor/lge/joan/proprietary/vendor/lib/libsymphonypower-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower-1.1.4.so \
     vendor/lge/joan/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
+    vendor/lge/joan/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/lge/joan/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/lge/joan/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/lge/joan/proprietary/vendor/lib/rfsa/adsp/AlacDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/AlacDecoderModule.so.1 \
@@ -673,7 +673,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libaudioparsers \
     libsdm-disp-vndapis \
-    TimeService \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON
 PRODUCT_COPY_FILES += \
